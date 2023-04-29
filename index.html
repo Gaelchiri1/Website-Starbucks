@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="script.js">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Starbucks Landing page</title>
+</head>
+<body>
+    <section class="sector">
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="/img/logo.png" alt="logo.png" class="logo" ></a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#delivery">Delivery</a></li>
+                <li><a href="#app">App</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>It's not just Coffee <br>It's <span>Starbucks</span></h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos dolor laudantium incidunt possimus consectetur omnis obcaecati voluptatibus dolores quibusdam, unde voluptas adipisci, expedita, accusamus tempora pariatur labore? Minus, harum aliquid!</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imgbox">
+                <img src="/img/img1.png" alt="img1" class="starbucks">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="/img/thumb1.png" alt="img1" onclick="imgSlider('/img/img1.png');changeCircleColor('#017143')"></li>
+            <li><img src="/img/thumb2.png" alt="img2" onclick="imgSlider('/img/img2.png');changeCircleColor('#eb7495')"></li>
+            <li><img src="/img/thumb3.png" alt="img3" onclick="imgSlider('/img/img3.png');changeCircleColor('#d752b1')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="/img/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="/img/instagram.png" alt=""></a></li>
+            <li><a href="#"><img src="/img/twitter.png" alt=""></a></li>
+        </ul>
+    </section>
+<!--Tienda* SHOP-->
+    <section class="shop" id="shop">
+        <div class="heading">
+            <span>Shop Now</span>
+            <h1>Shop Coffee</h1>
+        </div>
+        <div class="shop-conteiner">
+            <div class="box">
+                <div class="box-img">
+                    <img src="/img/shop1.png" alt="shop1">
+                </div>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <h2>StarsBucks Coffee</h2>
+                <span>$ 12.99</span>
+                <a href="" class="btn">Order Now</a>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="/img/shop2.png" alt="shop2">
+                </div>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <h2>StarsBucks Coffee</h2>
+                <span>$ 12.99</span>
+                <a href="" class="btn">Order Now</a>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="/img/shop3.png" alt="shop3">
+                </div>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <h2>StarsBucks Coffee</h2>
+                <span>$ 12.99</span>
+                <a href="" class="btn">Order Now</a>
+            </div>
+        </div>
+    </section>
+<!--TIENDA SHOP-->
+<!--DELIVERY-->
+    <section class="delivery" id="delivery">
+        <div class="heading">
+            <span>Get Now</span>
+            <h1>Order With Uber Eats</h1>
+        </div>
+        <div class="container">
+            <div class="delivery-img">
+                <img src="/img/delivery.png" alt="delivery" class="deliveryimg1">
+            </div>
+
+            <div class="delivery-text">
+                <h2>Today deserve delivery</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quia, nam deserunt sed provident, fugiat aperiam saepe nisi commodi pariatur est, aliquid incidunt porro ab magnam voluptates. Ipsum, nobis suscipit!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus consequuntur itaque ratione iure. Voluptate suscipit quia maiores mollitia ut temporibus error hic placeat similique. A accusantium dolorem porro neque soluta.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos magnam rerum quasi, numquam aliquid fugit natus voluptas soluta odit a dicta culpa doloribus, aperiam quae molestias! Impedit nostrum repellendus odit!</p> 
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae eum impedit facilis ad excepturi officiis mollitia? Sunt, dicta expedita natus quisquam laboriosam autem eos voluptas dolor cum iusto voluptates doloremque.</p>
+               <a href="#" class="btn">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="app" id="app">
+        <div class="heading">
+            <span>Our App</span>
+            <h1>Download App</h1>
+        </div>
+        <div class="container">
+            <div class="app-text">
+                <h2>Fall Into An Easier Routine</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quia, nam deserunt sed provident, fugiat aperiam saepe nisi commodi pariatur est, aliquid incidunt porro ab magnam voluptates. Ipsum, nobis suscipit!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus consequuntur itaque ratione iure. Voluptate suscipit quia maiores mollitia ut temporibus error hic placeat similique. A accusantium dolorem porro neque soluta.</p>
+               <a href="#" class="btn">Get App</a>
+            </div>
+            <div class="app-img">
+                <img src="/img/app.png" alt="fotoapp" class="appfoto">
+            </div>
+        </div>
+    </section>
+<!--termina app-->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="/img/about.png" alt="about">
+    </div>
+    <div class="about-text">
+        <h2>50 Years of Serving Communities</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quia, nam deserunt sed provident, fugiat aperiam saepe nisi commodi pariatur est, aliquid incidunt porro ab magnam voluptates. Ipsum, nobis suscipit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus consequuntur itaque ratione iure. Voluptate suscipit quia maiores mollitia ut temporibus error hic placeat similique. A accusantium dolorem porro neque soluta.</p>
+       <a href="#" class="btn">Learn More</a>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="social">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-youtube'></i></a>
+    </div>
+    <div class="links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms Of Use</a>
+        <a href="#">Our Company</a>
+    </div>
+    <p>&#169; " " All Right Reserved.</p>
+</section>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>
